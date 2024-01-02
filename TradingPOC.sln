@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradingPOC.Data.API", "TradingPOC.Data.API\TradingPOC.Data.API.csproj", "{83437067-BDB4-493E-80E9-69135A39A990}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradingPOC.TradingAPI", "TradingPOC.TradingAPI\TradingPOC.TradingAPI.csproj", "{56259CA7-6393-4824-AD98-FD929D8800D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradingPOC.LoginAPI", "TradingPOC.LoginAPI\TradingPOC.LoginAPI.csproj", "{FC6304C3-4712-4B29-992E-F7A93AD02F05}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradingPOC.ContractNote", "EmailContractNote\TradingPOC.ContractNote.csproj", "{82CCDDD9-34D2-409B-BE28-E039EC716153}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradingPOC.EmailService", "TradingPOC.EmailService\TradingPOC.EmailService.csproj", "{02447CDF-2D5C-4132-B49C-2FB07454870E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradingPOC.ReportsAPI", "TradingPOC.ReportsAPI\TradingPOC.ReportsAPI.csproj", "{74F1FA02-C346-48E4-B6EF-5D2C8415DD48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83437067-BDB4-493E-80E9-69135A39A990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83437067-BDB4-493E-80E9-69135A39A990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83437067-BDB4-493E-80E9-69135A39A990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83437067-BDB4-493E-80E9-69135A39A990}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56259CA7-6393-4824-AD98-FD929D8800D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56259CA7-6393-4824-AD98-FD929D8800D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56259CA7-6393-4824-AD98-FD929D8800D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56259CA7-6393-4824-AD98-FD929D8800D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC6304C3-4712-4B29-992E-F7A93AD02F05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC6304C3-4712-4B29-992E-F7A93AD02F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC6304C3-4712-4B29-992E-F7A93AD02F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC6304C3-4712-4B29-992E-F7A93AD02F05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82CCDDD9-34D2-409B-BE28-E039EC716153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82CCDDD9-34D2-409B-BE28-E039EC716153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82CCDDD9-34D2-409B-BE28-E039EC716153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82CCDDD9-34D2-409B-BE28-E039EC716153}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02447CDF-2D5C-4132-B49C-2FB07454870E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02447CDF-2D5C-4132-B49C-2FB07454870E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02447CDF-2D5C-4132-B49C-2FB07454870E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02447CDF-2D5C-4132-B49C-2FB07454870E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74F1FA02-C346-48E4-B6EF-5D2C8415DD48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74F1FA02-C346-48E4-B6EF-5D2C8415DD48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74F1FA02-C346-48E4-B6EF-5D2C8415DD48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74F1FA02-C346-48E4-B6EF-5D2C8415DD48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47BA562E-AEA1-4023-BA42-B00107EB541C}
+	EndGlobalSection
+EndGlobal

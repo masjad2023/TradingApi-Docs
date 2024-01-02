@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contract Note</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .loss {
+            color: #e60000;
+        }
+
+        .gain {
+            color: #3b581b;
+        }
+
+        .script {
+            color: #0089d0;
+        }
+    </style>
+</head>
+<body>
+
+    <p>Dear <span id="userName">##UserName##</span>,</p>
+
+    <p>Here are the trades for <span id="tradeDate">##TradeDate##</span>:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Order Id</th>
+                <th>Trade Timestamp</th>
+                <th>Script</th>
+                <th>Trade Type</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Buy Amount</th>
+                <th>Sell Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            ##TradeBody##
+            <tr>
+                <td colspan="6" style="text-align: right;">
+                    <b>Total</b>
+                </td>
+                <td>
+                    <b class="loss">##TotalBuyAmount##</b>
+                </td>
+                <td>
+                    <b class="gain">##TotalSellAmount##</b>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="7" style="text-align: right;">
+                    <b class="##PayableClassName##">##PayableText##</b>
+                </td>
+                <td>
+                    <b class="##PayableClassName##">&#8377; ##Amount##</b>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

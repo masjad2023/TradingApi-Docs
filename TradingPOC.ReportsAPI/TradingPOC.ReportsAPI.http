@@ -1,0 +1,6 @@
+@TradingPOC.ReportsAPI_HostAddress = http://localhost:5012
+
+GET {{TradingPOC.ReportsAPI_HostAddress}}/reports/
+Accept: application/json
+
+###
